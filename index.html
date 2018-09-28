@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="grey lighten-3">
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand waves-effect"><strong class="blue-text">Logo</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent"
+          aria-expanded="false" aria-label="Toggle_navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a href="#" class="nav-link waves-effect">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link waves-effect">About us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link waves-effect">News</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link waves-effect">Contacts</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item mr-2"><a href="#" class="nav-link border border-light rounded waves-effect"><i class="fa fa-facebook"></i></a></li>
+            <li class="nav-item mr-2"><a href="#" class="nav-link border border-light rounded waves-effect"><i class="fa fa-github"></i></a></li>
+            <li class="nav-item mr-2"><a href="#" class="nav-link border border-light rounded waves-effect"><i class="fa fa-twitter"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="sidebar-fixed position-fixed">
+      <a href="#" class="logo-wrapper waves-effect">
+        <img src="https://mdbootstrap.com/img/logo/mdb-email.png" alt="" class="img-fluid">
+      </a>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item waves-effect active"><i class="fa fa-pie-chart mr-3"></i>Dashboard</a>
+        <a href="#" class="list-group-item waves-effect"><i class="fa fa-user mr-3"></i>Profile</a>
+        <a href="#" class="list-group-item waves-effect"><i class="fa fa-table mr-3"></i>Tables</a>
+        <a href="#" class="list-group-item waves-effect"><i class="fa fa-map mr-3"></i>Maps</a>
+        <a href="#" class="list-group-item waves-effect"><i class="fa fa-money mr-3"></i>Orders</a>
+      </div>
+    </div>
+  </header>
+  <main class="pt-5 max-lg-5">
+    <div class="container-fluid mt-5">
+      <div class="card mb-4 wow zoomIn">
+        <div class="card-body d-sm-flex justify-content-between">
+          <h4 class="mb-2 mb-sm-0 pt-1">
+            <a href="">Home page</a>
+            <span> / </span>
+            <span>Dashboard</span>
+          </h4>
+          <form class="d-flex justify content-center">
+            <input type="search" class="form-control" placeholder="Type your query">
+            <button class="btn btn-primary btn-sm my-0 p" type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-9 mb-4">
+          <div class="card wow slideInLeft">
+            <div class="card-body">
+              <canvas id="myChart"></canvas>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card mb-2 wow slideInRight">
+            <div class="card-body">
+              <canvas id="pieChart"></canvas>
+            </div>
+          </div>
+          <div class="card mb-4 wow slideInRight">
+            <div class="card-body">
+              <div class="list-group list-group-flush">
+                <a href="#" class="list-group-item list-group-item-action waves-effect">Sales
+                  <span class="badge badge-danger badge-pill pull-right">23%<i class="fa fa-arrow-up ml-1"></i></span>
+                </a>
+              </div>
+              <div class="list-group list-group-flush">
+                <a href="#" class="list-group-item list-group-item-action waves-effect">Sales
+                  <span class="badge badge-success badge-pill pull-right">23%<i class="fa fa-arrow-up ml-1"></i></span>
+                </a>
+              </div>
+              <div class="list-group list-group-flush">
+                <a href="#" class="list-group-item list-group-item-action waves-effect">Sales
+                  <span class="badge badge-primary badge-pill pull-right">23%<i class="fa fa-arrow-up ml-1"></i></span>
+                </a>
+              </div>
+              <div class="list-group list-group-flush">
+                <a href="#" class="list-group-item list-group-item-action waves-effect">Sales
+                  <span class="badge badge-warning badge-pill pull-right">23%<i class="fa fa-arrow-up ml-1"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-4 wow rotateIn">
+          <div class="card">
+            <div class="card-body">
+              <table class="table table-hover">
+                <thead class="blue lighten-4">
+                  <tr>
+                    <th>#</th>
+                    <th>lorem</th>
+                    <th>lorem</th>
+                    <th>lorem</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <th>item 2</th>
+                    <th>item 3</th>
+                    <th>item 4</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <th>item 2</th>
+                    <th>item 3</th>
+                    <th>item 4</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <th>item 2</th>
+                    <th>item 3</th>
+                    <th>item 4</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4 wow rotateIn">
+          <div class="card">
+            <div class="card-body">
+              <table class="table table-hover">
+                <thead class="blue-grey lighten-4">
+                  <tr>
+                    <th>#</th>
+                    <th>lorem</th>
+                    <th>lorem</th>
+                    <th>lorem</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <th>item 2</th>
+                    <th>item 3</th>
+                    <th>item 4</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <th>item 2</th>
+                    <th>item 3</th>
+                    <th>item 4</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <th>item 2</th>
+                    <th>item 3</th>
+                    <th>item 4</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row wow fadeIn">
+        <div class="col-lg-4 col-md-12 mb-4 wow jello">
+          <div class="cadr">
+            <div class="card-header">Line chart</div>
+            <div class="card-body">
+              <canvas id="lineChart"></canvas>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 wow jello">
+          <div class="card">
+            <div class="card-header">Radar-chard</div>
+            <div class="card-body">
+              <canvas id="radarChart"></canvas>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 wow jello">
+          <div class="card">
+            <div class="card-header">Doughnut-chard</div>
+            <div class="card-body">
+              <canvas id="doughnutChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="page-footer text-center font-small primary-color-dark darken-2 mt-4 wow fadeIn">
+    <div class="pt-4">
+      <a href="#" class="btn btn-outline-white">Bootstrap
+        <i class="fa fa-download ml-2"></i>
+      </a>
+      <a href="#" class="btn btn-outline-white">News
+        <i class="fa fa-graduation-cap ml-2"></i>
+      </a>
+    </div>
+    <div class="pb-4">
+      <a href=""><i class="fa fa-facebook mr-3"></i></a>
+      <a href=""><i class="fa fa-twitter mr-3"></i></a>
+      <a href=""><i class="fa fa-youtube mr-3"></i></a>
+      <a href=""><i class="fa fa-google-plus mr-3"></i></a>
+      <a href=""><i class="fa fa-dribbble mr-3"></i></a>
+      <a href=""><i class="fa fa-pinterest mr-3"></i></a>
+      <a href=""><i class="fa fa-github mr-3"></i></a>
+      <a href=""><i class="fa fa-codepen mr-3"></i></a>
+    </div>
+    <div class="footer-copyright py-3">ITDoctor</div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script>
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var myChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ["Red", "Green", "Blue", "Gray", "Purple"],
+        datasets: [{
+          label: '# of Votes',
+          data: [12, 14, 15, 11, 12],
+          backgroundColor: ['red', 'green', 'blue', 'gray', 'purple'],
+          borderColor: ['red', 'green', 'blue', 'gray', 'purple'],
+          borderWidth: 2
+        }]
+      },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              beginAtZero: true
+            }
+          }]
+        }
+      }
+    });
+
+    var ctxP = document.getElementById('pieChart').getContext('2d');
+    var myPieChart = new Chart(ctxP, {
+      type: 'pie',
+      data: {
+        datasets: [{
+          data: [350, 280, 320, 110],
+          backgroundColor: ['red', 'green', 'blue', 'purple'],
+          hoverBackgroundColor: ['purple', 'red', 'green', 'blue']
+        }]
+      },
+      options: {
+        responsive: true
+      }
+    });
+
+    var ctxL = document.getElementById('lineChart').getContext('2d');
+    var myLineChart = new Chart(ctxL, {
+      type: 'line',
+      data: {
+        labels: ["1", "2", "3", "4", "5", "6", "7"],
+        datasets: [{
+            label: "dataset",
+            fillColor: "black",
+            strokeColor: "red",
+            pointColor: "green",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "yellow",
+            data: [65, 58, 80, 85, 55, 34, 40]
+          },
+          {
+            label: "dataset 2",
+            fillColor: "black",
+            strokeColor: "red",
+            pointColor: "green",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "yellow",
+            data: [55, 58, 50, 65, 45, 24, 30]
+          }
+        ]
+      }
+    });
+
+    var ctxR = document.getElementById('radarChart').getContext('2d');
+    var myRadarChart = new Chart(ctxR, {
+      type: 'radar',
+      data: {
+        labels: ["First", "Second", "Thrid", "Four", "First", "Second", "Thrid"],
+        datasets: [
+          {
+            label: "dataset",
+            fillColor: "black",
+            strokeColor: "red",
+            pointColor: "green",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "yellow",
+            data: [65, 58, 80, 85, 55, 34, 40]
+          },
+          {
+            label: "dataset 2",
+            fillColor: "black",
+            strokeColor: "red",
+            pointColor: "green",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "yellow",
+            data: [55, 58, 50, 65, 45, 24, 30]
+          }
+        ]
+      }
+    });
+
+    var ctxD = document.getElementById('doughnutChart').getContext('2d');
+    var myDoughnutChart = new Chart(ctxD, {
+      type: 'doughnut',
+      data: {
+        labels: ["First", "Second", "Thrid", "Four", "First"],
+        datasets: [
+          {
+            data: [300,50,100,40,130],
+            backgroundColor: ["red", "green", "blue", "yellow", "gray"],
+            hiverBackgroundColor: ["gray", "yellow", "green", "blue", "red"]
+          }
+        ]
+      },
+      options: {
+        responsive: true
+      }
+    });
+  </script>
+</body>
+
+</html>
